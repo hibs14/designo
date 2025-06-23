@@ -271,13 +271,8 @@ footer .base .address svg {
 }
 
 /* RESPONSIVENESS */
-@media(min-width:768px){
-    .hamburger-icon{
-        display: none;
-    }
-}
+
 @media(max-width:768px){
-    
     .frame{
     display: flex;
     flex-direction: column;
@@ -330,6 +325,11 @@ footer .base .address svg {
     width: 70%;
     }
 }
+@media(min-width:427px){
+    .hamburger-icon{
+        display: none;
+    }
+}    
 @media(max-width:426px){
     .container .left-side{
         display: none;

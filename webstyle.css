@@ -226,8 +226,8 @@ footer .base .address svg {
     padding: 5px;
 }
 /* RESPONSIVENESS */
-@media(max-width:425px){
-    .grid{
+@media(max-width:768px){
+   .grid{
     display: grid;
     grid-template-columns: auto;
     width: 80%;
@@ -246,6 +246,7 @@ footer .base .address svg {
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
+    text-align: center;
     }
     .page .design{
         margin-bottom: 50px;
@@ -264,6 +265,21 @@ footer .base .address svg {
     .next .content{
     width: 80%;
     text-align: center;
+    }
+}
+@media(min-width:427px){
+    .hamburger-icon{
+        display: none;
+    }
+} 
+
+@media(max-width:426px){
+    .container .left-side{
+        display: none;
+    }
+    footer .head{
+        display: flex;
+        flex-direction: column;
     }
     footer .base .address{
     flex-direction: column;
